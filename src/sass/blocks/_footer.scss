@@ -14,22 +14,20 @@
     height: 270px;
     background-color: $main-color;
     font-size: 20px;
-    font-weight: 500;
+    font-weight: 700;
     text-align: center;
     color: $white;
   }
-  &__adress  {
+  &__adress, &__phone  {
     display: block;
     margin: 0 auto;
     padding-top: 50px;
   }
   &__phone {
-    display: block;
-    margin: 0 auto;
     padding-top: 36px;
     padding-bottom: 38px;
     font-size: 20px;
-    font-weight: 500;
+    font-weight: 700;
     text-align: center;
     color: $white;
     &:hover {
@@ -46,6 +44,5 @@
       height: 50px;
     }
   }
-
 
 }
