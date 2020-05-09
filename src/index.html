@@ -101,9 +101,9 @@
                и мы перезвоним вам в течении 10 минут
            </div>
 
-           <form class="feed-form" action="#">
+           <form id="consultation-form" class="feed-form" action="#">
                <input name="name" placeholder="Ваше Имя" type="text">
-               <input name="phone" placeholder="Ваш телефон" type="number">
+               <input name="phone" placeholder="Ваш телефон">
                <input name="email" placeholder="Ваш E-mail" type="email">
 
                <button class="button button_main button_main_form">заказать консультацию</button>
@@ -140,7 +140,7 @@
             <div class="catalogue__content catalogue__content_active">
                 <div class="catalogue-item">
                     <div class="catalogue-item__wrapper">
-                        <div class="catalogue-item__content catalogue-item__content_active">
+                       <div  class="catalogue-item__content catalogue-item__content_active">
                             <img src="img/catalogue/cat-watch.jpg" alt="продукт каталога" class="catalogue-item__img">
                             <div class="catalogue-item__subtitle">
                                 Пульсометр Polar FT1
@@ -713,9 +713,9 @@
             <div class="modal__subtitle">Просто заполните форму заявки</div>
             <div class="modal__descript">и мы перезвоним вам в течении 10 минут</div>
             <form class="feed-form feed-form_mt25" action="#">
-                <input name="name" required placeholder="Ваше Имя" type="text">
-                <input name="phone" required placeholder="Ваш телефон" type="number">
-                <input name="email" required placeholder="Ваш E-mail" type="email">
+                <input name="name" placeholder="Ваше Имя" type="name">
+                <input name="phone" placeholder="Ваш телефон">
+                <input name="email" placeholder="Ваш E-mail" type="email">
                 <button class="button button_main button_main_form">заказать консультацию</button>
             </form>
         </div>
@@ -725,7 +725,7 @@
             <div class="modal__descript">Пульсометр Polar FT1</div>
             <form class="feed-form feed-form_mt25" action="#">
                 <input name="name" required placeholder="Ваше Имя" type="text">
-                <input name="phone" required placeholder="Ваш телефон" type="number">
+                <input name="phone" required placeholder="Ваш телефон">
                 <input name="email" required placeholder="Ваш E-mail" type="email">
                 <button class="button button_main button_main_form">купить</button>
             </form>
@@ -741,6 +741,8 @@
     <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
     <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
     <script src="js/slick.min.js"></script>
+    <script src="js/jquery.validate.min.js"></script>
+    <script src="js/jquery.maskedinput.min.js"></script>
     <script src="js/script.js"></script>
 </body>
 </html>

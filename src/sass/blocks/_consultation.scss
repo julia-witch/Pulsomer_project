@@ -10,5 +10,15 @@
     text-align: left;
     color: $white;
   }
+    .error {
+      border: 1px solid red;
+    }
+    label.error {
+      font-size: 12px;
+      color: white;
+      border: none;
+      text-align: center;
+      margin-bottom: 10px;
+    }
 
 }
